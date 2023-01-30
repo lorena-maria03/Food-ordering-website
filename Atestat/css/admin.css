@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input{
+    font-size: 17px;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #3867d6;
+}
+
+.btn-green{
+    background-color: #26de81;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn-green:hover{
+    background-color: #03a54f;
+}
+
+.btn-delete{
+    background-color: #fc5c65;
+    padding: 1%;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn-delete:hover{
+    background-color: #eb3b5a;
+}
+
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff6b81;
+}
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+    height: 70%;
+    overflow: auto;
+}
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+
+.login{
+    width: 50%;
+    border: 1px solid grey;
+    margin: 10% auto;
+    padding: 2%;
+}
+
+.error{
+    text-align: center;
+    color: #ff4757;
+    font-size: 20px;
+}
+.success{
+    text-align: center;
+    color: #03a54f;
+    font-size: 25px;
+}
